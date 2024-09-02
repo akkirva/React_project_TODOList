@@ -1,8 +1,6 @@
 
-export default function Item(props) {
+export default function Item(props: any) {
     return (
-    <div>
-        <div>{props.el}</div>
-    </div>
+        <li>{props.el}</li>
     )
 }
